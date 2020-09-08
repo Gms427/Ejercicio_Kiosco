@@ -11,7 +11,6 @@ namespace PII_Game_Of_Life
         /// </summary>
         public static string[] ReadFile(string path)
         {
-            //string url = "ruta del archivo";
             string content = File.ReadAllText(path);
             string[] contentLines = content.Split('\n');
             return contentLines;
