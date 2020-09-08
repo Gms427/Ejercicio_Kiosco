@@ -32,6 +32,8 @@ namespace PII_Game_Of_Life
 
         public Board(bool[,] boardData)
         {
+            this.Width = boardData.GetLength(0);
+            this.Heigth = boardData.GetLength(1);
             this.BoardData = boardData;
         }
     }
